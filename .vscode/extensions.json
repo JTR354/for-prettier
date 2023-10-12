@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint", 
+    "esbenp.prettier-vscode", 
+    "stylelint.vscode-stylelint", 
+    "vunguyentuan.vscode-postcss",
+    "streetsidesoftware.code-spell-checker",
+    "nicoespeon.hocus-pocus",
+    "sburg.vscode-javascript-booster"
+  ]
+}
