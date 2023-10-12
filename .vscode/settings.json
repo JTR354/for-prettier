@@ -1,16 +1,17 @@
 // .vscode/settings.json
 {
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true,
-      "source.fixAll.stylelint": true
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
   },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
   "postcss.validate": false,
   "emmet.includeLanguages": {
-      "postcss": "css"
+    "postcss": "css"
   },
   "stylelint.snippet": ["css", "scss", "less", "postcss"],
   "stylelint.validate": ["css", "scss", "less", "postcss"],

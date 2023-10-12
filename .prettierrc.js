@@ -7,21 +7,21 @@ module.exports = {
   proseWrap: 'never',
   endOfLine: 'auto',
   semi: true,
-  tabWidth: 4,
+  tabWidth: 2,
   vueIndentScriptAndStyle: true,
   htmlWhitespaceSensitivity: 'strict',
   overrides: [
-      {
-          files: '.prettierrc',
-          options: {
-              parser: 'json',
-          },
+    {
+      files: '.prettierrc',
+      options: {
+        parser: 'json',
       },
-      {
-          files: 'document.ejs',
-          options: {
-              parser: 'html',
-          },
+    },
+    {
+      files: 'document.ejs',
+      options: {
+        parser: 'html',
       },
+    },
   ],
 };

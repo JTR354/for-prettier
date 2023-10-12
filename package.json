@@ -8,7 +8,11 @@
     "lint": "pnpm lint:es && pnpm lint:style",
     "lint:es": "eslint . --ext ts,tsx --fix --report-unused-disable-directives --max-warnings 0",
     "lint:style": "stylelint \"**/*.css\" --fix --cache --cache-location node_modules/.cache/stylelint/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -31,6 +35,8 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "eslint-plugin-unused-imports": "^3.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
     "prettier": "^3.0.3",
     "stylelint": "^15.10.3",
     "stylelint-config-css-modules": "^4.3.0",
