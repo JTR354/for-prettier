@@ -1,3 +1,8 @@
 {
-  "words": ["blockless", "plusplus", "stylelint"]
+  "words": [
+    "blockless",
+    "commitlint",
+    "plusplus",
+    "stylelint"
+  ]
 }
