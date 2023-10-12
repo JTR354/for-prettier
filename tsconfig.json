@@ -33,7 +33,13 @@
     "noImplicitReturns": true,
     "pretty": true,
     "noImplicitAny": true,
-    "importsNotUsedAsValues": "remove"
+    "importsNotUsedAsValues": "remove",
+
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
